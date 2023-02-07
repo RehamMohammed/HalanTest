@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -27,6 +28,9 @@ public class Main {
         int result = p4.compose.apply(6);
         System.out.println(result);
 
+        ////////
+        Problem5 p5 = new Problem5();
+        p5.unique(new String[]{"apples", "oranges", "flowers", "apples"});
 
 
     }
