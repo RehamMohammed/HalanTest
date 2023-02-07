@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a word");
+        /*System.out.println("Enter a word");
         String word = sc.nextLine();
         Problem1 p1 = new Problem1();
         boolean res = p1.isPalindrome(word);
@@ -20,7 +20,12 @@ public class Main {
         System.out.println("Enter a string to decode");
         String str2 = sc.nextLine();
         String decodedStr = p2.runLengthDecode(str2);
-        System.out.println(decodedStr);
+        System.out.println(decodedStr);*/
+
+        ///////////
+        Problem4 p4 = new Problem4();
+        int result = p4.compose.apply(6);
+        System.out.println(result);
 
 
 
