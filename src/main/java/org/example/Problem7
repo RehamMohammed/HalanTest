@@ -1,0 +1,8 @@
+-fill container B with 3 litres from the water source
+-fill container A by container B (container A has 3 liters and container B is empty)
+-fill container B from the water source
+-fill container A from container B (container A has 5 liters and container B has 1 liter)
+-empty container A
+-fill container A with container B (container A has 1 litre and container B is empty)
+-fill container B from the water source
+-fill container A with container B (container A has 4 liters and container B is empty)
