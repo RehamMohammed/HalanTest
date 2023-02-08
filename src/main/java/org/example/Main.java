@@ -24,14 +24,16 @@ public class Main {
         System.out.println(decodedStr);*/
 
         ///////////
-        Problem4 p4 = new Problem4();
-        int result = p4.compose.apply(6);
-        System.out.println(result);
+//        Problem4 p4 = new Problem4();
+//        int result = p4.compose.apply(6);
+//        System.out.println(result);
 
         ////////
-        Problem5 p5 = new Problem5();
-        p5.unique(new String[]{"apples", "oranges", "flowers", "apples"});
-
+//        Problem5 p5 = new Problem5();
+//        p5.unique(new String[]{"apples", "oranges", "flowers", "apples"});
+        /////////
+        Problem6 p6 = new Problem6();
+        p6.transpose(new int [][]{ { 1,2,3,4 }, { 5,6,7,8 } });
 
     }
 
