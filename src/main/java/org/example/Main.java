@@ -36,9 +36,15 @@ public class Main {
 //        p6.transpose(new int [][]{ { 1,2,3,4 }, { 5,6,7,8 } });
         ////////
 
-        Problem8 p8 = new Problem8();
-        int indx = p8.getFirstDuplicate(new int[] {10, 5, 3, 4, 3, 5, 6});
-        System.out.println(indx);
+//        Problem8 p8 = new Problem8();
+//        int indx = p8.getFirstDuplicate(new int[] {10, 5, 3, 4, 3, 5, 6});
+//        System.out.println(indx);
+//
+        ////////
+
+        BinaryTree tree = new BinaryTree();
+        tree.constructTree();
+        System.out.println(tree.sumOfNodes());
     }
 
 }
