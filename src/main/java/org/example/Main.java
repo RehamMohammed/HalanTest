@@ -32,9 +32,13 @@ public class Main {
 //        Problem5 p5 = new Problem5();
 //        p5.unique(new String[]{"apples", "oranges", "flowers", "apples"});
         /////////
-        Problem6 p6 = new Problem6();
-        p6.transpose(new int [][]{ { 1,2,3,4 }, { 5,6,7,8 } });
+//        Problem6 p6 = new Problem6();
+//        p6.transpose(new int [][]{ { 1,2,3,4 }, { 5,6,7,8 } });
+        ////////
 
+        Problem8 p8 = new Problem8();
+        int indx = p8.getFirstDuplicate(new int[] {10, 5, 3, 4, 3, 5, 6});
+        System.out.println(indx);
     }
 
 }
